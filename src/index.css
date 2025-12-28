@@ -19,6 +19,8 @@ body {
   color: #676663;
   font-family: "Roboto Flex", system-ui, -apple-system, sans-serif;
   line-height: 1.65;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 a {
@@ -46,9 +48,9 @@ ul {
 }
 
 header {
-  padding: 20px 0;
+  padding: 20px 40px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -63,4 +65,39 @@ p {
   font-size: 1rem;
   line-height: 1.8;
   font-weight: 700;
+}
+
+.laptop {
+  height: auto;
+  width: 400px;
+  height: 266px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #676663;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.intro {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 80px;
 }
