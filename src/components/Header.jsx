@@ -5,7 +5,7 @@ import { NAV_LINKS } from "../data.js";
 function Header() {
     return (
         <header>
-            <a href="#portfolio"><img src={home} alt="Logo" /></a>
+            <a href="#portfolio"><img className="icon" src={home} alt="Logo" /></a>
             <Navbar links={NAV_LINKS} />
         </header>
     );

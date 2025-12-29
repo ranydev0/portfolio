@@ -48,13 +48,17 @@ ul {
 }
 
 header {
-  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  background-color: #fafaf8;
+  padding: 20px 20px 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-img {
+.icon {
   width: 30px;
   height: auto;
 }
@@ -73,7 +77,7 @@ p {
   height: 266px;
 }
 
-section {
+.intro-container {
   display: flex;
   justify-content: space-around;
   padding: 40px 20px;
@@ -94,10 +98,71 @@ h1 {
   margin-bottom: 20px;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
 .intro {
   width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 80px;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  flex-wrap: wrap;
+}
+
+.section-container-vertical {
+  flex-direction: column;
+}
+
+.section-container-horizontal {
+  flex-direction: row;
+}
+
+.education-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  background-color: #efede6;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  height: auto;
+  width: 90%;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+hr {
+  height: 200px;
+  width: 4px;
+  background-color: #676663;
+  border: none;
+  margin: 0;
+}
+
+.institute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  width: 250px;
+}
+
+.institute-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

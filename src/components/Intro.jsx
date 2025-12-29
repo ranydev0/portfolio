@@ -2,7 +2,7 @@ import laptop from "../assets/laptop.png";
 
 function Intro() {
   return (
-    <section>
+    <section className="intro-container">
       <img className="laptop" src={laptop} alt="laptop" />
       <div className="intro">
         <h1>Rany Daioub</h1>
