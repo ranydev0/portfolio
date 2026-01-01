@@ -1,12 +1,21 @@
-import laptop from "../assets/laptop.png";
+import avatar from "../assets/avatar.png";
+import Button from "./Button.jsx";
 
 function Intro() {
   return (
     <section className="intro-container">
-      <img className="laptop" src={laptop} alt="laptop" />
+      <div className="avatar-container">
+        <img className="avatar" src={avatar} alt="avatar" />
+      </div>
       <div className="intro">
-        <h1>Rany Daioub</h1>
-        <p>Cyber Automation Engineer, with experience in React</p>
+        <div>
+          <h1>Rany Daioub</h1>
+          <p>Cyber Automation Engineer, with experience in React</p>
+        </div>
+        <div className="intro-buttons">
+          <Button>Download Resume</Button>
+          <Button clicked>Contact Me</Button>
+        </div>
       </div>
     </section>
   );

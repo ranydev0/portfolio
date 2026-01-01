@@ -71,16 +71,28 @@ p {
   font-weight: 700;
 }
 
-.laptop {
-  height: auto;
-  width: 400px;
-  height: 266px;
+.avatar {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 400px;
+}
+
+.avatar-container {
+  background-color: rgba(103, 102, 99, 0.7);
+  border-radius: 40px;
+  display: flex;
+  flex-shrink: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro-container {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 40px 20px;
+  height: auto;
 }
 
 h1 {
@@ -102,11 +114,22 @@ h3 {
 }
 
 .intro {
+  background-color: #efede6;
   width: 400px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  padding: 0 80px;
+  gap: 50px;
+  width: 60%;
+  padding: 0 0 0 40px;
+  border-radius: 40px;
+}
+
+.intro-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .section-container {
@@ -125,27 +148,36 @@ h3 {
   flex-direction: row;
 }
 
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .education-card {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   gap: 5%;
   background-color: #efede6;
   padding: 20px;
   margin: 20px;
+  border: #676663 5px solid;
   border-radius: 20px;
-  height: auto;
-  width: 90%;
+  height: 400px;
+  width: 500px;
 }
 
 .logo {
   width: 100px;
-  height: auto;
+  height: 100px;
   margin-bottom: 20px;
 }
 
 hr {
-  height: 200px;
-  width: 4px;
+  height: 5px;
+  width: 90%;
   background-color: #676663;
   border: none;
   margin: 0;
@@ -156,14 +188,22 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 30px;
-  width: 250px;
 }
 
 .institute-details {
+  width: 300px;
+  height: 400px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
+}
+
+.institute-details p {
+  font-size: 1.1rem;
+  text-align: center;
 }
 
 button {
