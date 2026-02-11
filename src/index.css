@@ -241,7 +241,6 @@ button {
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
-  margin: 20px;
   padding: 20px;
 }
 
@@ -251,7 +250,7 @@ button {
   gap: 20px;
   align-items: center;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   height: auto;
   color: #efede6;
   border-radius: 40px;
@@ -355,24 +354,24 @@ footer {
 }
 
 #footer-social {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
 }
 
 #footer-text {
   color: #676663;
-  font-size: clamp(3rem, 7rem, 10rem);
-  font-weight: 700;
+  font-size: clamp(7rem, 6vw, 7rem);
+  font-weight: 800;
   margin: 0;
-  width: 80%;
+  width: 90%;
   min-height: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   line-height: 9rem;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.15em;
 }
 
 #text-container {

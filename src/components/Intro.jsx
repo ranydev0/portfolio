@@ -10,7 +10,7 @@ function Intro() {
       <div className="intro">
         <div>
           <h1>Rany Daioub</h1>
-          <p>Cyber Automation Engineer, with experience in React</p>
+          <p>Senior Associate Cyber Automation Engineer</p>
         </div>
         <div className="intro-buttons">
           <Button>Download Resume</Button>
