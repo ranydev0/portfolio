@@ -11,9 +11,20 @@ Font Reference:
 
 */
 
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 html,
 body {
-  margin: 0;
   padding: 0;
   background-color: #fafaf8;
   color: #676663;
@@ -407,4 +418,84 @@ footer {
   font-weight: 700;
   line-height: 1.6;
   min-height: 2rem;
+}
+
+@media (max-width: 600px) {
+  .intro-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .avatar {
+    height: 300px;
+  }
+
+  .avatar-container {
+    width: 100%;
+  }
+
+  .intro {
+    gap: 30px;
+    width: 90%;
+    padding: 20px;
+    align-items: center;
+  }
+
+  button {
+    padding: 10px 5px;
+    border-radius: 25px;
+    border: #676663 5px solid;
+    font-size: 0.9rem;
+    font-weight: 700;
+    width: 160px;
+    cursor: pointer;
+  }
+
+  .education-card {
+    width: 90%;
+  }
+
+  .education-container {
+    flex-direction: column;
+  }
+
+  .card-top {
+    padding: 10px;
+  }
+
+  .company-logo {
+    width: 100px;
+    height: 20px;
+    margin: 0;
+  }
+
+  td {
+    font-size: 0.8rem;
+  }
+
+  th {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    padding: 0px;
+  }
+
+  #footer-social {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+
+  #text-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  #footer-text {
+    font-size: clamp(3rem, 10vw, 7rem);
+    line-height: 1.2;
+    letter-spacing: 0em;
+  }
 }
