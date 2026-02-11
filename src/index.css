@@ -17,7 +17,11 @@ body {
   padding: 0;
   background-color: #fafaf8;
   color: #676663;
-  font-family: "Roboto Flex", system-ui, -apple-system, sans-serif;
+  font-family:
+    "Roboto Flex",
+    system-ui,
+    -apple-system,
+    sans-serif;
   line-height: 1.65;
   max-width: 1200px;
   margin: 0 auto;
@@ -336,4 +340,72 @@ th.company {
     column-width: 100%;
     column-gap: 0;
   }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 40vh;
+  text-align: center;
+  color: #676663;
+  font-size: 1rem;
+  padding: 20px;
+}
+
+#footer-social {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-text {
+  color: #676663;
+  font-size: clamp(3rem, 7rem, 10rem);
+  font-weight: 700;
+  margin: 0;
+  width: 80%;
+  min-height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 9rem;
+  letter-spacing: 0.12em;
+}
+
+#text-container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-icon {
+  width: 3.5rem;
+  height: auto;
+  margin: 0 10px;
+}
+
+.social-text {
+  color: #676663;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.6;
+  min-height: 2rem;
 }
