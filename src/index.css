@@ -600,8 +600,22 @@ footer {
     margin: 0;
   }
 
+  table {
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 8px 4px;
+  }
+
+  th {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
   td {
     font-size: 0.8rem;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   th {

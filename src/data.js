@@ -33,7 +33,7 @@ export const EDUCATION = [
 ];
 
 export const WORK_EXPERIENCE = {
-  "Jul 2024 - Present": {
+  "Jul 2024 - Present Date": {
     team: "Cyber Automation",
     company: "Macquarie Group",
     logo: macquarie,
