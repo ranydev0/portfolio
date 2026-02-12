@@ -230,6 +230,16 @@ button {
   font-size: 1.2rem;
   font-weight: 700;
   width: 250px;
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: 1.2;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -255,6 +265,11 @@ button {
   align-items: center;
   gap: 20px;
   padding: 20px;
+}
+
+.tab-buttons button {
+  min-height: 64px;
+  white-space: nowrap;
 }
 
 .work-card-container {
@@ -453,6 +468,10 @@ footer {
     width: clamp(150px, 20vw, 250px);
   }
 
+  .tab-buttons button {
+    min-height: clamp(48px, 7vw, 64px);
+  }
+
   .education-container {
     flex-wrap: wrap;
     justify-content: center;
@@ -558,6 +577,10 @@ footer {
     font-weight: 700;
     width: 140px;
     cursor: pointer;
+  }
+
+  .tab-buttons button {
+    min-height: 44px;
   }
 
   .education-container {
