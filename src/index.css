@@ -442,6 +442,41 @@ footer {
     font-size: clamp(0.6rem, 1vw, 1rem);
     width: clamp(90px, 20vw, 250px);
   }
+
+  .education-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: clamp(0.5rem, 2vw, 2.5rem);
+  }
+
+  .education-card {
+    padding: clamp(10px, 2vw, 20px);
+    margin: clamp(10px, 2vw, 20px);
+    height: 400px;
+    width: clamp(200px, 35vw, 500px);
+  }
+
+  .logo {
+    width: clamp(50px, 10vw, 100px);
+    height: clamp(50px, 10vw, 100px);
+  }
+
+  hr {
+    width: clamp(80px, 60vw, 100%);
+  }
+
+  .institute-details {
+    width: clamp(200px, 30vw, 300px);
+  }
+
+  .institute-details p {
+    font-size: clamp(0.7rem, 1vw, 1.7rem);
+    text-align: center;
+  }
 }
 
 @media (max-width: 600px) {
@@ -476,12 +511,37 @@ footer {
     cursor: pointer;
   }
 
+  .education-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
   .education-card {
+    padding: 20px;
+    margin: 20px;
     width: 90%;
   }
 
-  .education-container {
-    flex-direction: column;
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  hr {
+    width: 90%;
+  }
+
+  .institute-details {
+    width: 300px;
+  }
+
+  .institute-details p {
+    font-size: 1rem;
   }
 
   .card-top {
