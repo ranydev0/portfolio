@@ -524,6 +524,11 @@ footer {
     width: 100%;
   }
 
+  h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    text-align: center;
+  }
+
   .intro {
     gap: 30px;
     width: 90%;
@@ -531,13 +536,17 @@ footer {
     align-items: center;
   }
 
+  .intro-buttons {
+    gap: 5px;
+  }
+
   button {
-    padding: 10px 5px;
+    padding: 8px 3px;
     border-radius: 25px;
     border: #676663 5px solid;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 700;
-    width: 160px;
+    width: 140px;
     cursor: pointer;
   }
 
