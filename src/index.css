@@ -439,8 +439,8 @@ footer {
 
   button {
     padding: clamp(5px, 1vw, 15px) clamp(5px, 2vw, 30px);
-    font-size: clamp(0.6rem, 1vw, 1rem);
-    width: clamp(90px, 20vw, 250px);
+    font-size: clamp(0.6rem, 1.5vw, 1rem);
+    width: clamp(150px, 20vw, 250px);
   }
 
   .education-container {
@@ -476,6 +476,16 @@ footer {
   .institute-details p {
     font-size: clamp(0.7rem, 1vw, 1.7rem);
     text-align: center;
+  }
+
+  th {
+    font-size: 1rem;
+  }
+
+  .company-logo {
+    width: 150px;
+    height: 30px;
+    margin: 0;
   }
 }
 
