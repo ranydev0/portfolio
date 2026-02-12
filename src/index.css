@@ -164,8 +164,11 @@ h3 {
 
 .education-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .education-card {
@@ -176,7 +179,7 @@ h3 {
   gap: 5%;
   background-color: #efede6;
   padding: 20px;
-  margin: 20px;
+  margin: 0;
   border: #676663 5px solid;
   border-radius: 20px;
   height: 400px;
