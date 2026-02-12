@@ -1,0 +1,615 @@
+/*
+Colour Palette Reference:
+- Background Main: #FAFAF8
+- Background Section: #EFEDE6
+- Background Card: #D5CFC3
+- Text Primary: #676663
+- Text Muted: #A1998F
+
+Font Reference:
+- Primary Font: 'Roboto Flex', system-ui, -apple-system, sans-serif
+
+*/
+
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  padding: 0;
+  background-color: #fafaf8;
+  color: #676663;
+  font-family:
+    "Roboto Flex",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  line-height: 1.65;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  color: #676663;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #fafaf8;
+}
+
+a:hover {
+  text-decoration-color: #676663;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 10px 10px;
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fafaf8;
+  padding: 20px 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+}
+
+p {
+  margin: 0;
+  color: #676663;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 700;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 400px;
+}
+
+.avatar-container {
+  background-color: rgba(103, 102, 99, 0.7);
+  border-radius: 40px;
+  display: flex;
+  flex-shrink: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 20px;
+  height: auto;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  margin: 0;
+  color: #676663;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #676663;
+}
+
+h3 {
+  margin: 0;
+  color: #676663;
+}
+
+.intro {
+  background-color: #efede6;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  width: 60%;
+  padding: 0 0 0 40px;
+  border-radius: 40px;
+}
+
+.intro-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  flex-wrap: wrap;
+}
+
+.section-container-vertical {
+  flex-direction: column;
+}
+
+.section-container-horizontal {
+  flex-direction: row;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  background-color: #efede6;
+  padding: 20px;
+  margin: 20px;
+  border: #676663 5px solid;
+  border-radius: 20px;
+  height: 400px;
+  width: 500px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+hr {
+  height: 5px;
+  width: 90%;
+  background-color: #676663;
+  border: none;
+  margin: 0;
+}
+
+.institute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.institute-details {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.institute-details p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: #676663 5px solid;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 250px;
+  cursor: pointer;
+}
+
+.btn-filled {
+  background-color: #676663;
+  color: #efede6;
+}
+
+.btn-outlined {
+  background-color: #efede6;
+  color: #676663;
+}
+
+.btn-outlined:hover {
+  background-color: #676663;
+  color: #efede6;
+}
+
+.tab-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.work-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  color: #efede6;
+  border-radius: 40px;
+}
+
+.work-text {
+  color: #676663;
+  font-size: 1.2rem;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #efede6;
+  height: auto;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #676663;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.company-logo {
+  width: 250px;
+  height: 40px;
+  margin: 0;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 20px 5px;
+}
+
+td {
+  vertical-align: top;
+  color: #676663;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 700;
+}
+
+th {
+  text-align: left;
+  white-space: nowrap;
+  font-size: 1.5rem;
+  color: #676663;
+}
+
+th.company {
+  text-align: right;
+}
+
+.masonry {
+  column-width: 280px;
+  column-gap: 16px;
+
+  width: fit-content;
+  max-width: 100%;
+  flex: 0 0 auto;
+}
+
+.card {
+  break-inside: avoid;
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  text-align: left;
+}
+
+.card p {
+  margin: 0;
+  font-size: clamp(0.9rem, 0.5vw + 0.75rem, 1.05rem);
+  line-height: 2;
+  color: #efede6;
+}
+
+@media (max-width: 520px) {
+  .masonry {
+    column-width: 100%;
+    column-gap: 0;
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 40vh;
+  text-align: center;
+  color: #676663;
+  font-size: 1rem;
+  padding: 20px;
+}
+
+#footer-social {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-text {
+  color: #676663;
+  font-size: clamp(7rem, 6vw, 7rem);
+  font-weight: 800;
+  margin: 0;
+  width: 90%;
+  min-height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 9rem;
+  letter-spacing: 0.15em;
+}
+
+#text-container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-icon {
+  width: 3.5rem;
+  height: auto;
+  margin: 0 10px;
+}
+
+.social-text {
+  color: #676663;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.6;
+  min-height: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .avatar {
+    height: clamp(150px, 30vw, 400px);
+  }
+
+  h1 {
+    font-size: clamp(1rem, 5vw, 3.5rem);
+  }
+
+  p {
+    font-size: clamp(0.8rem, 2vw, 3rem);
+  }
+
+  .intro {
+    gap: clamp(20px, 5vw, 50px);
+    width: clamp(300px, 55vw, 700px);
+  }
+
+  button {
+    padding: clamp(5px, 1vw, 15px) clamp(5px, 2vw, 30px);
+    font-size: clamp(0.6rem, 1.5vw, 1rem);
+    width: clamp(150px, 20vw, 250px);
+  }
+
+  .education-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: clamp(0.5rem, 2vw, 2.5rem);
+  }
+
+  .education-card {
+    padding: clamp(10px, 2vw, 20px);
+    margin: clamp(10px, 2vw, 20px);
+    height: 400px;
+    width: clamp(200px, 35vw, 500px);
+  }
+
+  .logo {
+    width: clamp(50px, 10vw, 100px);
+    height: clamp(50px, 10vw, 100px);
+  }
+
+  hr {
+    width: clamp(80px, 60vw, 100%);
+  }
+
+  .institute-details {
+    width: clamp(200px, 30vw, 300px);
+  }
+
+  .institute-details p {
+    font-size: clamp(0.7rem, 1vw, 1.7rem);
+    text-align: center;
+  }
+
+  th {
+    font-size: 1rem;
+  }
+
+  .company-logo {
+    width: 150px;
+    height: 30px;
+    margin: 0;
+  }
+
+  footer {
+    padding: 0px;
+  }
+
+  #footer-social {
+    align-items: center;
+    gap: 40px;
+  }
+
+  #text-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  #footer-text {
+    font-size: clamp(4rem, 12vw, 7rem);
+    line-height: 1.2;
+    letter-spacing: 0em;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .avatar {
+    height: 300px;
+  }
+
+  .avatar-container {
+    width: 100%;
+  }
+
+  .intro {
+    gap: 30px;
+    width: 90%;
+    padding: 20px;
+    align-items: center;
+  }
+
+  button {
+    padding: 10px 5px;
+    border-radius: 25px;
+    border: #676663 5px solid;
+    font-size: 0.9rem;
+    font-weight: 700;
+    width: 160px;
+    cursor: pointer;
+  }
+
+  .education-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .education-card {
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  hr {
+    width: 90%;
+  }
+
+  .institute-details {
+    width: 300px;
+  }
+
+  .institute-details p {
+    font-size: 1rem;
+  }
+
+  .card-top {
+    padding: 10px;
+  }
+
+  .company-logo {
+    width: 100px;
+    height: 20px;
+    margin: 0;
+  }
+
+  td {
+    font-size: 0.8rem;
+  }
+
+  th {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    padding: 0px;
+  }
+
+  #footer-social {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+
+  #text-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  #footer-text {
+    font-size: clamp(3rem, 10vw, 7rem);
+    line-height: 1.2;
+    letter-spacing: 0em;
+  }
+}
