@@ -487,6 +487,26 @@ footer {
     height: 30px;
     margin: 0;
   }
+
+  footer {
+    padding: 0px;
+  }
+
+  #footer-social {
+    align-items: center;
+    gap: 40px;
+  }
+
+  #text-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  #footer-text {
+    font-size: clamp(4rem, 12vw, 7rem);
+    line-height: 1.2;
+    letter-spacing: 0em;
+  }
 }
 
 @media (max-width: 600px) {
